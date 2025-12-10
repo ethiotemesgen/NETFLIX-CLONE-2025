@@ -1,8 +1,11 @@
+import Footer from "./COMPONENT/Footer/Footer";
+import Header from "./COMPONENT/HEADER/Header";
 function App() {
   return (
-    <div>
-      <h1>Netflix Clone</h1>
-    </div>
+    <>
+      <Header />
+      <Footer/>
+    </>
   );
 }
 
